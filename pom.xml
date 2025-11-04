@@ -23,15 +23,15 @@
     </dependencies>
 
     <build>
+        <finalName>tmdb-movie-app</finalName>
         <plugins>
-            <!-- JAR con todas las dependencias -->
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>3.6.0</version>
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>tmdbApp</mainClass> <!-- Tu clase main -->
+                            <mainClass>tmdbApp</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
